@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(192, 192, 192);
+}
+
+header{
+    width: 100%;
+    background-color: orange;
+    text-align: center;
+    padding:20px 0;
+}
+.cover h1{
+    font-size: 3em;
+    padding:10px 0;
+}
+
+span{
+    color:white;
+}
+
+.navBar a{
+    text-decoration: none;
+    color: black;
+    padding:8px 15px;
+}
+
+.navBar a:hover{
+    background-color: white;
+    color:orange;
+}
+
+main{
+    width: 920px;
+    display:flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.contents{
+    width: 660px;
+    float: left;
+}
+
+aside{
+    width: 240px;
+    float: right;
+}
+
+.post{
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.title h2 {
+    color: orange;
+}
+
+.images img{
+    width: 100%;
+}
+
+#latest, #categories {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#latest h2,#categories h2{
+    background-color: rgb(192, 192, 192);
+    padding: 5px 8px;
+}
+
+aside a, .post a{
+        text-decoration: none;
+        color: orange;
+        display: block;
+        padding: 5px 0;
+     }
+
+aside a:hover{
+   text-decoration: underline;
+}
+aside p {
+    font-size: 0.8em;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    padding:40px 0;
+}
